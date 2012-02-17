@@ -2,7 +2,7 @@
  * @preserve Copyright 2011 Syd Lawrence ( www.sydlawrence.com ).
  * Version: 0.5
  *
- * Licensed under MIT and GPLv2.
+ * Not sure which licence yet. Need to work it out… jquery plugin will be free, but wordpress plugin will cost
  *
  * Usage: jQuery('#navbar a').turboBewst(options);
  *
