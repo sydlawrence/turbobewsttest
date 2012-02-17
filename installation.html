@@ -104,9 +104,14 @@ MMMMMDDDDDDDDDDDZ     NNNNNNDDDDDDMMMMMMMMMMMDDDDDDNNNNNN     ZDDDDDDDDDDDMMMMM
       Installation
   	</h1>
   	
-    <pre><code>jQuery('#navbar a').turboBewst(options);</code></pre>  	
+    <pre><code> $.fn.turboBewst.ready( function() {
+  jQuery('#navbar a').turboBewst(options);
+});</code></pre>  	
   	
+  	<p>It needs to be initiated in the head</p>
   	
+  	<p>For any other plugins, place them inside  $.fn.turboBewst.ready() instead of $(document).ready()</p>
+
   	
   	
     </div>
