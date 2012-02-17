@@ -1,0 +1,48 @@
+/**
+ * @preserve Copyright 2011 Syd Lawrence ( www.sydlawrence.com ).
+ * Version: 0.4
+ *
+ * Licensed under MIT and GPLv2.
+ *
+ * For use with jquery.turboBewst plugin
+ *
+ */
+ 
+.turboBewst_loading {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:30;
+	font-size:25px;
+	text-align: center;
+	width:16px;
+	left:50%;
+	margin-left:-8px;
+	background: url(jquery.turboBewst.loading.gif);
+	height:11px;
+	top:50%;
+	margin-top:-5px;
+}
+
+.turboBewst_overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:25;
+	font-size:25px;
+	background: rgba(0,0,0,0.7);
+}
+
+.turboBewst_page {
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.turboBewst_container {
+	position:fixed;
+	top:0;
+	left:0;
+}
