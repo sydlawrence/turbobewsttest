@@ -12,3 +12,14 @@ In the head
     jQuery('#navbar a').turboBewst(); 
   })
 </script> 
+
+
+It needs to be initiated in the head
+
+For any other plugins, place them inside  $.fn.turboBewst.ready() instead of $(document).ready()
+
+Troubleshooting
+
+Make sure all other javascripts are called inside $.fn.turboBewst.ready().
+
+Make sure your links have titles, this is what becomes the title of the window when they are clicked on
